@@ -129,6 +129,7 @@ p {
     margin: auto;
     height: 500px;
     border-bottom: solid 1px;
+    margin-top: 20px;
 }
  /* ultimo contenitore */
 .footer {
@@ -144,6 +145,7 @@ div {
 .container-box-doble{
    width: 100%;
    margin: auto;
+   height: 900px;
    
 }
 button {
