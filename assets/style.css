@@ -7,12 +7,12 @@
 .container {       
 height: 500px;
 margin: 0 auto;
-border: 2px solid red
+
 }
 
 header {
    background-image: url(../img/jumbo.png);
-   
+   background-size: contain;
    color: white;
 }
 
@@ -50,7 +50,6 @@ p {
     width: 80%;
     margin: auto;
     height: 500px;
-    border: 1px solid black;
 }
 .flexbox {
    display: flex;
@@ -82,8 +81,13 @@ p {
    margin: 1px solid red;
  }
     h2 {
+      font-family: calistoga;
       margin-left:12%;
-     margin-top:14%
+     margin-top:14%;
+     
+ }
+ h1 {
+   font-family: calistoga;
  }
  .paragrafo {
    padding: 40px;
@@ -100,7 +104,7 @@ p {
     width: 80%;
     margin: auto;
     height: 700px;
-    border: 1px solid black;
+    
  }
 
  
@@ -108,27 +112,26 @@ p {
  .flex-finale {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    
     
 
  }
  .table {
     width: 40%;
     height: 350px;
-    background-color: blue;
+    background-color: black;
  }
  .table-2 {
-    background-color: red;
+    background-color: black;
     width: 15%;
     height: 350px;
-    border: 1px solid white
+    
  }
 
 .container-box-ultimo {
     width: 80%;
     margin: auto;
     height: 500px;
-    border-bottom: solid 1px;
     margin-top: 20px;
 }
  /* ultimo contenitore */
@@ -136,7 +139,6 @@ p {
     width: 80%;
     margin: auto;
     height: 100px;
-    background-color: black;
     margin-top: 10px;
 }
 div {
@@ -150,4 +152,44 @@ div {
 }
 button {
    margin-top: 20px;
+   border-radius: 20px;
+   display: inline-block;
+   
+   line-height: 30px;
+   text-align: center;
+   background-color: rgb(8, 125, 236);
+   color: white;
+   font-weight: bold;
+   border-color:rgb(8, 125, 236) ;
+
+}
+.bag {
+   margin-bottom: 10px;
+}
+.logo-4 {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+}
+
+ .table-2 h2 {
+   color:rgb(8, 125, 236) ;
+}
+h4 {
+   font-size: 30px;
+   margin-top: 25px;
+   color:rgb(8, 125, 236)  ;
+}
+span {
+   color: white;
+}
+h3 {
+   color: white;
+}
+.black {
+   background-color: black;
+}
+
+body {
+   background-color: black;
 }
