@@ -1,0 +1,106 @@
+a* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* primo contenitore caratteristiche */
+.container {       
+height: 500px;
+margin: 0 auto;
+border: 2px solid red
+
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ /* box centrale primo contenitore */
+.box-rosa {
+    height: 300px;
+    width: 600px;
+    border: 1px solid red;
+    background-color: pink;
+}
+/* caratteristiche contenitore centrale */
+.container-box {
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    border: 1px solid black;
+}
+.flexbox {
+   display: flex;
+   flex-direction: row;
+   }
+   /* primi 2 box all'interno del contenitore */
+  
+ .child-1 {
+    background-color: blue;
+    height: 500px;
+    border: 1 px solid blue;
+    width: 60%;
+ }
+ .child-2 {
+    background-color: red;
+    height: 500px;
+    border: 1 px solid red;
+    width: 40%;
+ }
+  /* box terza fascia */
+  .child-3 {
+    background-color: yellow;
+    height: 500px;
+    width: 50%;
+    border: 1px solid blue;
+  }
+ /* quarta fascia */
+ .final {
+    width: 80%;
+    margin: auto;
+    height: 700px;
+    border: 1px solid black;
+ }
+ .child-4 {
+    height: 600px;
+    width: 800px;
+    border: 1px solid red;
+    background-color: forestgreen;
+ }
+ /* fascia finale */
+ .flex-finale {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+ }
+ .table {
+    width: 40%;
+    height: 350px;
+    background-color: blue;
+ }
+ .table-2 {
+    background-color: red;
+    width: 15%;
+    height: 350px;
+    border: 1px solid white
+ }
+
+.container-box-ultimo {
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    border-bottom: solid 1px;
+}
+ /* ultimo contenitore */
+.footer {
+    width: 80%;
+    margin: auto;
+    height: 100px;
+    background-color: black;
+    margin-top: 10px;
+}
