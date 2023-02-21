@@ -57,18 +57,36 @@ p {
    flex-direction: row;
    }
    /* primi 2 box all'interno del contenitore */
-  
+  img {
+   margin-top: 20px;
+  }
  .child-1 {
-    background-color: blue;
+   
     height: 500px;
-    border: 1 px solid blue;
     width: 60%;
  }
  .child-2 {
-    background-color: red;
+   
     height: 500px;
-    border: 1 px solid red;
     width: 40%;
+ }
+ .prima {
+   background-color: white;
+ }
+ .seconda {
+   background-color: rgb(94, 174, 184);
+ }
+ .terza {
+   background-color: white;
+   height: 500px;
+   margin: 1px solid red;
+ }
+    h2 {
+      margin-left:12%;
+     margin-top:14%
+ }
+ .paragrafo {
+   padding: 40px;
  }
   /* box terza fascia */
   .child-3 {
@@ -84,12 +102,8 @@ p {
     height: 700px;
     border: 1px solid black;
  }
- .child-4 {
-    height: 600px;
-    width: 800px;
-    border: 1px solid red;
-    background-color: forestgreen;
- }
+
+ 
  /* fascia finale */
  .flex-finale {
     display: flex;
@@ -123,4 +137,15 @@ p {
     height: 100px;
     background-color: black;
     margin-top: 10px;
+}
+div {
+   text-align: center;
+}
+.container-box-doble{
+   width: 100%;
+   margin: auto;
+   
+}
+button {
+   margin-top: 20px;
 }
