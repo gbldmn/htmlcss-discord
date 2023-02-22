@@ -154,7 +154,7 @@ button {
    margin-top: 20px;
    border-radius: 20px;
    display: inline-block;
-   
+   padding: 4px 3px;
    line-height: 30px;
    text-align: center;
    background-color: rgb(8, 125, 236);
@@ -192,4 +192,26 @@ h3 {
 
 body {
    background-color: black;
+}
+
+
+.container-box-doble h1 {
+   padding: 15px;
+}
+.star {
+   
+   background-image: url("../img/stars.svg");
+   padding-top: 15px;
+   padding-left: 25px;
+   padding-right: 25px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.table-2 h3 {
+   font-size: 15px;
+}
+.wave-1hkxOo {
+   background-color: white;
+   color: rgb(94, 174, 184);
+   display: block;
 }
