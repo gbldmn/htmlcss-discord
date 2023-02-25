@@ -170,6 +170,7 @@ button {
    display: flex;
    justify-content: space-between;
    flex-direction: row;
+   height: 30px;
 }
 
  .table-2 h2 {
